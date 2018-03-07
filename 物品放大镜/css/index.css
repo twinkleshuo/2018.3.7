@@ -1,0 +1,41 @@
+/* css reset */
+body{
+	margin: 0;
+	padding:0;
+}
+
+/* main */
+.box{
+	width: 200px;
+	height: 200px;
+	background: url(../img/ico.jpg) no-repeat;
+	background-size: 200px 200px;
+	border: 1px solid red;
+	margin: 20px;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+.move{
+	width: 100px;
+	height: 100px;
+	background-color: rgba(0,0,0,.3);
+	display: none;
+	position: absolute;
+}
+.changebox{
+	width: 600px;
+	overflow: hidden;
+	display: inline-block;
+	height: 600px;
+	display: none;
+	position: relative;
+}
+.sizemove{
+	width: 1200px;
+	height: 1200px;
+	background: url(../img/ico.jpg) no-repeat;
+	background-size: 1200px 1200px;
+	position: absolute;
+	margin-top:20px;
+}
